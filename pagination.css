@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+.pagination {
+    margin: 20px;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+}
+
+nav {
+    background-color: #1a1a1a;
+    padding: 1em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 3px;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* or another highlight color like #00bfff */
+    border-bottom: 2px solid #ffd700;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire simple</title>
+    <link rel="stylesheet" href="Create.css">
+    <script src="./Create.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./main.html">Acceuil</a></li>
+            <li><a href="./Create.html">Ajouter un produit</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Ajout d'un Produit</h2>
+        <label for="nom">Nom du produit :</label>
+        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+
+        <p>Catégorie :</p>
+        <select id="categorie" name="categorie" required>
+            <option value="" disabled selected>Choisissez une catégorie</option>
+            <option value="1">Film</option>
+            <option value="2">Electronique</option>
+            <option value="3">Livres</option>
+            <option value="4">Vetement</option>
+        </select>
+
+        <button id="submit">Envoyer</button>
+        <p id="success"></p>
+    </div>
+</body>
+
+</html>
